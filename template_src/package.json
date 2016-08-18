@@ -1,0 +1,13 @@
+{
+  "name": "PhonegapTemplateCSDKImageEditorProject",
+  "version": "1.0.0",
+  "description": "This is the project created from the template: phonegap-template-csdk-image-editor",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+  ],
+  "license": "Apache-2.0.0"
+}
