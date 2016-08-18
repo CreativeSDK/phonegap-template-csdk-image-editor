@@ -1,0 +1,28 @@
+
+{
+  "name": "phonegap-template-csdk-image-editor",
+  "version": "1.0.0",
+  "description": "A reference for creating PhoneGap apps that integrate the Creative SDK Image Editor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CreativeSDK/phonegap-template-csdk-image-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CreativeSDK/phonegap-template-csdk-image-editor/issues"
+  },
+  "homepage": "https://github.com/CreativeSDK/phonegap-template-csdk-image-editor",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova:template",
+    "ecosystem:phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-browser"
+  ],
+  "author": "Adobe Creative SDK Team",
+  "license": "Apache-2.0"
+}
