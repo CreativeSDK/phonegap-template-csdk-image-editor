@@ -7,7 +7,7 @@
   },
   "keywords": [
     "ecosystem:phonegap",
-    "ecosystem:cordova",
+    "ecosystem:cordova"
   ],
   "license": "Apache-2.0.0"
 }
