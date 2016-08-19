@@ -45,24 +45,24 @@ This is a PhoneGap template to help you quickly get started with the Creative SD
 1. Create your app
 
 	```
-	phonegap create tempcsdk --template https://github.com/CreativeSDK/phonegap-template-csdk-image-editor#dev
+	phonegap create tempcsdk --template phonegap-template-csdk-image-editor
 	```
 
 1. Add your Creative SDK Client ID and Secret values
 
-	Open `config.xml` and find the `<plugin name="phonegap-plugin-csdk-client-auth" ... >` element. 
+	Open `config.xml` and find the `<plugin name="phonegap-plugin-csdk-client-auth" ... >` element.
 
-	You can add your Client ID and Secret values to the appropriate `variable`s here.
+	You can add your Client ID and Secret values to the appropriate `variable`'s here.
 
 1. Run `phonegap prepare` to fetch the plugins
 
 1. **iOS only:** download and add the Creative SDK
-	
+
 	_(Android developers: this step is handled for you automatically by the plugin.)_
 
 	You can get the Creative SDK for iOS from the [Downloads page](https://creativesdk.adobe.com/downloads.html).
-	
-	Add the extracted `AdobeCreativeSDKFrameworks` folder to these directories: 
+
+	Add the extracted `AdobeCreativeSDKFrameworks` folder to these directories:
 
 		- `plugins/phonegap-plugin-csdk-client-auth/src/ios`
 		- `plugins/phonegap-plugin-csdk-image-editor/src/ios`
@@ -70,7 +70,7 @@ This is a PhoneGap template to help you quickly get started with the Creative SD
 1. Add the platforms you intend to build for:
 
 	```
-	phonegap platform rm ios 
+	phonegap platform rm ios
 	phonegap platform rm android
 	phonegap platform add ios
 	phonegap platform add android

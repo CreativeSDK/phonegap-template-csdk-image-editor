@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/CreativeSDK/phonegap-template-csdk-image-editor/issues"
   },
-  "homepage": "https://github.com/CreativeSDK/phonegap-template-csdk-image-editor",
+  "homepage": "https://github.com/CreativeSDK/phonegap-template-csdk-image-editor#readme",
   "keywords": [
     "ecosystem:cordova",
     "cordova:template",
