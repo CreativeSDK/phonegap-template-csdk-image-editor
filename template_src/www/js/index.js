@@ -28,6 +28,7 @@ var app = {
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
         document.getElementById('launch-editor').addEventListener('click', this.launchEditor, false);
+        document.getElementById('take-picture').addEventListener('click', this.takePicture, false);
     },
     // deviceready Event Handler
     //
@@ -50,6 +51,20 @@ var app = {
     /* Make a helper function to launch the Image Editor */
     launchEditor: function() {
 
+        var imageUrl = document.getElementById('target-image').src;
+        app.openEditor(imageUrl);
+    },
+    takePicture: function() {
+        navigator.camera.getPicture(function(picUri){
+            app.openEditor(picUri);
+        }, function(message) {
+            console.log('Failed because: ' + message);
+        }, {
+            quality: 100,
+            destinationType: Camera.DestinationType.FILE_URI
+        });
+    },
+    openEditor: function(imageUrl) {
         /* Prep work for calling `.edit()` */
         function success(newUrl) {
             console.log("Success!", newUrl);
@@ -59,8 +74,6 @@ var app = {
         function error(error) {
             console.log("Error!", error);
         }
-
-        var imageUrl = document.getElementById('target-image').src;
 
         /* Optional `options` object. See API guide for usage. */
         var options = {
