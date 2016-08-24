@@ -1,7 +1,7 @@
 
 {
   "name": "phonegap-template-csdk-image-editor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A reference for creating PhoneGap apps that integrate the Creative SDK Image Editor.",
   "main": "index.js",
   "scripts": {
