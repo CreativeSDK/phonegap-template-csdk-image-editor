@@ -60,7 +60,7 @@ This is a PhoneGap template to help you quickly get started with the Creative SD
 
 	_(Android developers: this step is handled for you automatically by the plugin.)_
 
-	You can get the Creative SDK for iOS from the [Downloads page](https://creativesdk.adobe.com/downloads.html).
+	To get the iOS SDK, go to the [Downloads page](https://creativesdk.adobe.com/downloads.html), click the download link for `STATIC FRAMEWORKS (DEPRECATED)`.
 
 	Add the extracted `AdobeCreativeSDKFrameworks` folder to these directories:
 
